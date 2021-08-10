@@ -11,5 +11,5 @@ go run -gcflags=-G=3 1_print/t.go
 ```
 
 ## FAQ
-### Cannot export a generic function (yet)
+### `Cannot (yet) export a generic type`/`Cannot export a generic function (yet)`
 当前generic不支持导出， 因此对应的generic var/function用大写字母开头的命名都会报该错.
